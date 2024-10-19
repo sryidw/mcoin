@@ -220,18 +220,18 @@
     <div id="notification" class="hidden">
     <img src="tg.svg" alt="Telegram Icon" id="notification-icon">
     <div id="notification-content">
-        <h4>1WIN SIGNALS</h4>
-        <p>Ты выиграл ваучер!</p>
+        <h4>Thirsty_Signals</h4>
+        <p>You win vouchers!</p>
     </div>
 </div>
     <div class="marquee">
         <p>
-            <span class="text-segment">1WIN SIGNALS</span>
+            <span class="text-segment">Thirsty_BOT</span>
         </p>
     </div>
     <div id="container3D"></div>
-    <button id="flipButton">БРОСИТЬ</button>
-    <button id="returnButton" onclick="location.href='https://fr1dayyy.github.io/mai2/'">Вернуться</button>
+    <button id="flipButton">Start</button>
+    <button id="returnButton" onclick="location.href='https://sryidw.github.io/maiach/'">Back</button>
     <div id="resultText"></div>
     <div id="nsgocio-container">
 </div>
@@ -333,11 +333,11 @@
                     .to({ y: coin.rotation.y + Math.PI * 10 }, 2000)
                     .easing(TWEEN.Easing.Quadratic.InOut)
                     .onComplete(() => {
-                        const result = Math.random() < 0.5 ? "Орел" : "Решка";
+                        const result = Math.random() < 0.5 ? "Eagle" : "Tails";
                         const resultText = document.getElementById("resultText");
                         resultText.textContent = result;
                         resultText.style.display = 'block';
-                        resultText.style.left = result === "Орел" ? '34%' : '30%'; // Adjusted for dynamic placement
+                        resultText.style.left = result === "Eagle" ? '34%' : '30%'; // Adjusted for dynamic placement
                         resultText.classList.add("fadeInScaleUp");
                     });
 
